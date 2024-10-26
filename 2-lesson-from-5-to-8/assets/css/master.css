@@ -1,0 +1,101 @@
+/* Assign 1 */
+.assign-1 {
+  & div {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: blueviolet;
+    background-color: #8a2be2;
+    background-color: hsl(271, 76%, 53%);
+    background-color: rgb(138, 43, 226);
+    color: white;
+  }
+  .assign-1-shape-2 {
+    background-color: rgba(138, 43, 226, 0.5);
+  }
+  .assign-1-shape-3 {
+    background-color: rgba(138, 43, 226, 0.1);
+  }
+}
+
+/* Assign 2 */
+.assign-2 {
+  & div {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    background-color: #f1f1f1;
+    background-image: url(../img/css-assignment-5-8.png);
+    color: white;
+  }
+  .assign-2-shape-1 {
+    background-repeat: no-repeat;
+  }
+  .assign-2-shape-2 {
+    background-repeat: repeat-y;
+  }
+  .assign-2-shape-3 {
+    background-repeat: repeat-x;
+  }
+  .assign-2-shape-4 {
+    background-repeat: repeat;
+  }
+}
+
+/* Assign 3 */
+.assign-3 {
+  & div {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    background-color: #f1f1f1;
+    background-image: url(../img/css-assignment-5-8.png);
+    color: white;
+  }
+  .assign-3-shape-1 {
+    background-repeat: no-repeat;
+  }
+  .assign-3-shape-2 {
+    background-repeat: repeat-y;
+    background-position: right;
+  }
+  .assign-3-shape-3 {
+    background-repeat: repeat-x;
+    background-position: bottom;
+  }
+  .assign-3-shape-4 {
+    background-repeat: repeat;
+  }
+}
+
+/* Assign 4 */
+.assign-4 {
+  & div {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    background-color: #f1f1f1;
+    background-image: url(../img/css-assignment-5-8.png);
+    color: white;
+  }
+  .assign-4-shape-1 {
+    background-repeat: no-repeat;
+    background-size: 80%;
+  }
+  .assign-4-shape-2 {
+    background-repeat: repeat-y;
+    background-size: 80%;
+    background-position: right;
+  }
+  .assign-4-shape-3 {
+    background-repeat: repeat-x;
+    background-size: 80%;
+    background-position: bottom;
+  }
+  .assign-4-shape-4 {
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right bottom;
+  }
+}
