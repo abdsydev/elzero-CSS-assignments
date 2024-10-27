@@ -1,0 +1,55 @@
+h2 {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+/* التكليف 01 */
+.assign-1 {
+  direction: ltr;
+  width: fit-content;
+  margin: 0 auto;
+  & div {
+    display: inline-block;
+    background-color: #f1f1f1;
+    padding: 40px;
+    margin: 10px;
+    font-weight: bold;
+    outline: 5px solid black;
+  }
+  .assign-1-shape-1 {
+    border: 5px solid red;
+  }
+  .assign-1-shape-2 {
+    border: 5px solid;
+    border-color: blue green;
+  }
+  .assign-1-shape-3 {
+    border: 5px dashed;
+    border-color: red green blue yellow;
+  }
+}
+
+/* التكليف 02 */
+.assign-2 {
+  direction: ltr;
+  width: fit-content;
+  margin: 0 auto;
+  .element {
+    width: 400px;
+    background-color: #f1f1f1;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: 5px solid #f1f1f1;
+    border-left: 5px solid;
+  }
+  .element-1 {
+    border-color: #e91e63;
+  }
+  .element-2 {
+    visibility: hidden;
+  }
+  .element-3 {
+    border-color: #009688;
+  }
+}
