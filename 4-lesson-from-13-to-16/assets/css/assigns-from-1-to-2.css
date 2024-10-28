@@ -1,0 +1,45 @@
+h2 {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+/* التكليف 01 */
+.assign-1 {
+  direction: ltr;
+  width: fit-content;
+  margin: 0 auto;
+  .parent {
+    .child {
+      .title {
+        color: red;
+      }
+    }
+    .title {
+      color: blue;
+    }
+    & p {
+      color: green;
+    }
+  }
+  .title {
+    color: green;
+  }
+}
+
+/* التكليف 02 */
+.assign-2 {
+  direction: ltr;
+  width: fit-content;
+  margin: 0 auto;
+  .title {
+    width: fit-content;
+    max-width: 400px;
+    background-color: crimson; /* لون الخلفية */
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    white-space: nowrap; /* لمنع النص من الانتقال لسطر جديد */
+    overflow: hidden; /* لإخفاء النص الزائد */
+    text-overflow: ellipsis; /* لإضافة نقاط (...) في نهاية النص الزائد */
+  }
+}
