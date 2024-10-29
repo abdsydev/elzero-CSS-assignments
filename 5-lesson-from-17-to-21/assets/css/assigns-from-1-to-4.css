@@ -1,0 +1,63 @@
+h2 {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* التكليف 01 */
+.assign-1 {
+  & h3 {
+    font-size: 64px;
+    font-weight: 600;
+    width: fit-content;
+    margin: 0 auto;
+    text-shadow: 3px 3px #f44336, 6px 6px #2196f2, 9px 9px #9c27b0;
+  }
+}
+/* التكليف 02 */
+.assign-2 {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  .one {
+    text-transform: uppercase;
+  }
+  .two {
+    text-transform: capitalize;
+  }
+  .three {
+    text-transform: lowercase;
+  }
+}
+/* التكليف 03 */
+.assign-3 {
+  & div {
+    direction: ltr;
+    background-color: #f1f1f1;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .three {
+    white-space: nowrap; /* لمنع النص من الانتقال لسطر جديد */
+    overflow: hidden; /* لإخفاء النص الزائد */
+    text-overflow: ellipsis; /* لإضافة نقاط (...) في نهاية النص الزائد */
+  }
+}
+/* التكليف 04 */
+.assign-4 {
+  & a {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 20px;
+    padding-bottom: 8px;
+    background-color: royalblue;
+    color: aliceblue;
+    text-transform: capitalize;
+    border-bottom: 7px solid rgb(15, 80, 150);
+    font-weight: 600;
+  }
+}
