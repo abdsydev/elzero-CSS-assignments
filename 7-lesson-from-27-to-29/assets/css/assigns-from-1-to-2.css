@@ -1,0 +1,72 @@
+h2 {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+/* التكليف 01 */
+
+.assign-1 {
+  .parent {
+    direction: ltr;
+    background-color: var(--b-100);
+    width: 1000px;
+    margin: 0 auto;
+    .item {
+      background-color: var(--b-200);
+      padding: 15px;
+      margin-bottom: 15px;
+      margin-left: 15px;
+      margin-right: 15px;
+      text-align: center;
+      font-weight: 600;
+    }
+    .full-width {
+      width: calc(100% - 30px);
+      float: left;
+      margin-top: 15px;
+    }
+    .one-third {
+      width: calc((100% / 3) - 20px);
+      margin-right: 0;
+      float: left;
+    }
+    .half {
+      width: calc((100% / 2) - 23px);
+      float: left;
+      margin-right: 0;
+    }
+    .one-fourth {
+      width: calc((100% / 4) - 19px);
+      float: left;
+      margin-right: 0;
+    }
+    .last {
+      margin-right: 15px;
+    }
+  }
+  .clearfix {
+    clear: both;
+    display: table;
+  }
+}
+
+/* التكليف 02 */
+
+.assign-2 {
+  direction: ltr;
+  div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #b3b3b3; /* Get The Background From Image */
+    color: black;
+  }
+  .one {
+    background-color: rgba(179, 179, 179, 0.1);
+  }
+  .two {
+    opacity: 0.1;
+  }
+}
